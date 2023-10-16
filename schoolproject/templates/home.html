@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+<html lang="zxx">
+
+
+<body>
+{% block content %}
+
+<center><li  style="padding-top:30px;" class="list-inline-item"><a href="{% url 'person_add' %}"><button type="submit" class="btn btn-primary">Submit Form</button></a></li></center>
+
+
+{% endblock %}
+</body>
+</html>
